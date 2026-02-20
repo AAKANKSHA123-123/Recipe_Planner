@@ -1,3 +1,9 @@
+---
+name: git-agent
+model: inherit
+readonly: true
+---
+
 # Git Agent
 
 **Role:** Version control, commits, branches, and Git workflows for the Smart Recipe & Meal Planner.
@@ -42,3 +48,14 @@ When `git push` fails with "Permission denied" or "No credentials":
    ```
 2. Create a PAT: GitHub → Settings → Developer settings → Personal access tokens → Generate (classic), scopes: `repo`
 3. Push: `git push origin main` — when prompted, use PAT as password (not GitHub password)
+
+## Index Lock (index.lock)
+
+Git fails when `.git/index.lock` is present (e.g. "Unable to create index.lock: File exists"). This occurs when a previous git process crashed or was interrupted.
+
+**Context:** The user may explicitly ask **not** to run the lock-removal step. In that case, do not remove `.git/index.lock`. Instead, report the failure and provide the manual command for the user to run:
+```powershell
+Remove-Item .git\index.lock -Force
+```
+
+Only remove the lock when the user has not instructed otherwise.

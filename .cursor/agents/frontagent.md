@@ -1,3 +1,9 @@
+---
+name: frontagent
+model: inherit
+readonly: true
+---
+
 # Frontagent
 
 **Role:** Frontend / Streamlit UI specialist for the Smart Recipe & Meal Planner.
