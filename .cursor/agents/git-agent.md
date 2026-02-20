@@ -29,3 +29,16 @@ You may:
 
 - Use conventional commit style when suggested: `feat:`, `fix:`, `docs:`, `chore:`
 - Never commit secrets, `.env`, or `__pycache__`
+
+## Authentication (Push/Pull Fails)
+
+When `git push` fails with "Permission denied" or "No credentials":
+
+**Recommended: Option A — HTTPS + Personal Access Token (PAT)**
+
+1. Switch remote to HTTPS:
+   ```bash
+   git remote set-url origin https://github.com/OWNER/REPO.git
+   ```
+2. Create a PAT: GitHub → Settings → Developer settings → Personal access tokens → Generate (classic), scopes: `repo`
+3. Push: `git push origin main` — when prompted, use PAT as password (not GitHub password)
