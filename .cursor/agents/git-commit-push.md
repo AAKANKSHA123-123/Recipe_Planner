@@ -26,6 +26,15 @@ You may:
 
 If `index.lock` blocks: remove it with `Remove-Item .git\index.lock -Force`, unless user asked not to.
 
+## Permissions for git push
+
+**IMPORTANT:** Run `git push` with **full permissions** (`required_permissions: ["all"]`). This allows access to:
+- Windows Credential Manager (stored PAT/credentials)
+- SSH agent (if using SSH remote)
+- Network for pushing to remote
+
+Without full permissions, push may fail with `SEC_E_NO_CREDENTIALS` or similar even when the user's terminal push works.
+
 ## Authentication (Push Fails)
 
 When push fails with "Permission denied" or "No credentials", recommend HTTPS + PAT:
