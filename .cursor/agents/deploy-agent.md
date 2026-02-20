@@ -1,3 +1,9 @@
+---
+name: deploy-agent
+model: inherit
+readonly: true
+---
+
 # Deploy Agent
 
 **Role:** Deployment, packaging, and infrastructure for the Smart Recipe & Meal Planner.

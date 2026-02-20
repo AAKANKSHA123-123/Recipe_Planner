@@ -1,3 +1,9 @@
+---
+name: backend-agent
+model: inherit
+readonly: true
+---
+
 # Backend Agent
 
 **Role:** Backend logic and data for the Smart Recipe & Meal Planner.

@@ -1,3 +1,9 @@
+---
+name: kubernetes-agent
+model: inherit
+readonly: true
+---
+
 # Kubernetes Agent
 
 **Role:** Deploy the Smart Recipe & Meal Planner to Kubernetes pods.

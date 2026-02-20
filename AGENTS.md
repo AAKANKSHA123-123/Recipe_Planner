@@ -11,7 +11,9 @@ Use the appropriate agent when working on specific areas:
 | **@frontagent** | UI, layout, Streamlit components | `app.py` |
 | **@backend-agent** | Recipe logic, nutrition, data, shopping list | `src/*.py`, `src/data/*.json` |
 | **@deploy-agent** | Deployment, Docker, requirements | `Dockerfile`, `requirements.txt` |
-| **@git-agent** | Git commits, branches, CI workflows | `.gitignore`, `.github/workflows/` |
+| **@git-agent** | Git coordinator (parent) | Orchestrates subagents |
+| **@git-status-add** | `git status`, `git add` | Status checks, staging |
+| **@git-commit-push** | `git commit`, `git push` | Committing and pushing |
 | **@kubernetes-agent** | Deploy to Kubernetes pods | `k8s/`, Deployment, Service manifests |
 | **@plan-agent** | Architecture, docs, task breakdown | `README.md`, `AGENTS.md` |
 
@@ -23,6 +25,8 @@ Commands live in **.cursor/commands/**. Invoke via slash menu or natural languag
 |---------|------|--------|
 | `Generate weekly meal plan` / `/meal-plan` | [commands/generate-meal-plan.md](.cursor/commands/generate-meal-plan.md) | Create 7-day plan |
 | `Export shopping list` / `/export-shopping-list` | [commands/export-shopping-list.md](.cursor/commands/export-shopping-list.md) | Export as CSV |
+| `Check status` / `/git-status-add` | [commands/git-status-add.md](.cursor/commands/git-status-add.md) | Git status and add |
+| `Commit and push` / `/git-commit-push` | [commands/git-commit-push.md](.cursor/commands/git-commit-push.md) | Git commit and push |
 
 ## Rules
 

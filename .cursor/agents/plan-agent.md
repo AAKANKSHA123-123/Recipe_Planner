@@ -1,3 +1,9 @@
+---
+name: plan-agent
+model: inherit
+readonly: true
+---
+
 # Plan Agent
 
 **Role:** Architecture, documentation, and task planning for the Smart Recipe & Meal Planner.
