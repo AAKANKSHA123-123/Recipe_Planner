@@ -1,0 +1,27 @@
+---
+description: Recipe calorie rule - mark high-calorie recipes
+globs: "**/recipes.py,**/recipes.json,**/app.py"
+alwaysApply: false
+---
+
+# Recipe Calorie Rule
+
+When working with recipes in this project:
+
+**If a recipe has more than 500 calories, it MUST be marked as high-calorie.**
+
+## Implementation
+
+- In `recipes.py`, use the constant `HIGH_CALORIE_THRESHOLD = 500`.
+- Set `recipe["is_high_calorie"] = True` when `calories > 500`.
+- In `recipes.json`, ensure each recipe has a numeric `calories` field.
+
+## Example
+
+```python
+# Rule application in recipes.py
+def _apply_high_calorie_rule(recipe: dict) -> dict:
+    calories = recipe.get("calories", 0)
+    recipe["is_high_calorie"] = calories > 500
+    return recipe
+```

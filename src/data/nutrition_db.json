@@ -1,0 +1,107 @@
+{
+  "chicken": {
+    "calories_per_100g": 165,
+    "protein": 31,
+    "unit": "g"
+  },
+  "rice": {
+    "calories_per_100g": 130,
+    "protein": 2.7,
+    "unit": "g"
+  },
+  "broccoli": {
+    "calories_per_100g": 34,
+    "protein": 2.8,
+    "unit": "g"
+  },
+  "tomato": {
+    "calories_per_100g": 18,
+    "protein": 0.9,
+    "unit": "g"
+  },
+  "onion": {
+    "calories_per_100g": 40,
+    "protein": 1.1,
+    "unit": "g"
+  },
+  "garlic": {
+    "calories_per_100g": 149,
+    "protein": 6.4,
+    "unit": "g"
+  },
+  "egg": {
+    "calories_per_100g": 155,
+    "protein": 13,
+    "unit": "g"
+  },
+  "pasta": {
+    "calories_per_100g": 131,
+    "protein": 5,
+    "unit": "g"
+  },
+  "cheese": {
+    "calories_per_100g": 402,
+    "protein": 25,
+    "unit": "g"
+  },
+  "salmon": {
+    "calories_per_100g": 208,
+    "protein": 20,
+    "unit": "g"
+  },
+  "potato": {
+    "calories_per_100g": 77,
+    "protein": 2,
+    "unit": "g"
+  },
+  "carrot": {
+    "calories_per_100g": 41,
+    "protein": 0.9,
+    "unit": "g"
+  },
+  "lettuce": {
+    "calories_per_100g": 15,
+    "protein": 1.4,
+    "unit": "g"
+  },
+  "beans": {
+    "calories_per_100g": 127,
+    "protein": 8.7,
+    "unit": "g"
+  },
+  "milk": {
+    "calories_per_100g": 42,
+    "protein": 3.4,
+    "unit": "ml"
+  },
+  "flour": {
+    "calories_per_100g": 364,
+    "protein": 10,
+    "unit": "g"
+  },
+  "butter": {
+    "calories_per_100g": 717,
+    "protein": 0.9,
+    "unit": "g"
+  },
+  "olive oil": {
+    "calories_per_100g": 884,
+    "protein": 0,
+    "unit": "ml"
+  },
+  "bell pepper": {
+    "calories_per_100g": 31,
+    "protein": 1,
+    "unit": "g"
+  },
+  "lemon": {
+    "calories_per_100g": 29,
+    "protein": 1.1,
+    "unit": "g"
+  },
+  "avocado": {
+    "calories_per_100g": 160,
+    "protein": 2,
+    "unit": "g"
+  }
+}

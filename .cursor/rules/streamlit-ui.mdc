@@ -1,0 +1,16 @@
+---
+description: Streamlit UI conventions for this project
+globs: "app.py,**/ui*.py"
+alwaysApply: false
+---
+
+# Streamlit UI Conventions
+
+When editing the Streamlit UI:
+
+- Use `st.session_state` for persistent state (ingredients, meal plan, suggestions).
+- Use `on_change` or button callbacks to trigger recipe suggestions when ingredients change.
+- Keep layout structured: use `st.columns` for side-by-side content.
+- Use `st.subheader` and `st.divider` for clear sections.
+- Display high-calorie recipes with a visible indicator (e.g., "🔴 High-calorie").
+- Commands "Generate weekly meal plan" and "Export shopping list" should be prominent buttons.

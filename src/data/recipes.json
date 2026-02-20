@@ -1,0 +1,106 @@
+[
+  {
+    "id": "1",
+    "name": "Chicken Stir-Fry with Broccoli",
+    "ingredients": ["chicken", "broccoli", "rice", "garlic", "soy sauce"],
+    "calories": 420,
+    "instructions": "Heat oil, stir-fry chicken until golden. Add broccoli and garlic. Serve over rice with soy sauce.",
+    "servings": 2
+  },
+  {
+    "id": "2",
+    "name": "Tomato Pasta",
+    "ingredients": ["pasta", "tomato", "garlic", "onion", "olive oil"],
+    "calories": 380,
+    "instructions": "Cook pasta. Sauté garlic and onion, add tomatoes. Toss with pasta and olive oil.",
+    "servings": 2
+  },
+  {
+    "id": "3",
+    "name": "Baked Salmon with Rice",
+    "ingredients": ["salmon", "rice", "lemon", "garlic"],
+    "calories": 550,
+    "instructions": "Season salmon, bake at 375°F for 15 min. Serve with rice and lemon wedge.",
+    "servings": 2
+  },
+  {
+    "id": "4",
+    "name": "Cheesy Egg Scramble",
+    "ingredients": ["egg", "cheese", "butter", "tomato"],
+    "calories": 450,
+    "instructions": "Scramble eggs in butter, add cheese and diced tomato. Serve hot.",
+    "servings": 2
+  },
+  {
+    "id": "5",
+    "name": "Bean and Rice Bowl",
+    "ingredients": ["beans", "rice", "onion", "bell pepper", "garlic"],
+    "calories": 390,
+    "instructions": "Cook rice. Sauté onion, pepper, garlic. Add beans, serve over rice.",
+    "servings": 2
+  },
+  {
+    "id": "6",
+    "name": "Potato and Broccoli Salad",
+    "ingredients": ["potato", "broccoli", "onion", "olive oil", "lemon"],
+    "calories": 280,
+    "instructions": "Boil potato and broccoli. Dice and mix with olive oil and lemon dressing.",
+    "servings": 2
+  },
+  {
+    "id": "7",
+    "name": "Garlic Butter Chicken",
+    "ingredients": ["chicken", "butter", "garlic", "rice", "lemon"],
+    "calories": 620,
+    "instructions": "Pan-fry chicken in garlic butter. Serve with rice and lemon.",
+    "servings": 2
+  },
+  {
+    "id": "8",
+    "name": "Fresh Garden Salad",
+    "ingredients": ["lettuce", "tomato", "carrot", "onion", "olive oil", "lemon"],
+    "calories": 120,
+    "instructions": "Chop vegetables, mix with olive oil and lemon dressing.",
+    "servings": 2
+  },
+  {
+    "id": "9",
+    "name": "Chicken Fried Rice",
+    "ingredients": ["chicken", "rice", "egg", "carrot", "onion", "garlic"],
+    "calories": 480,
+    "instructions": "Stir-fry rice with chicken, scrambled egg, carrot, and onion.",
+    "servings": 2
+  },
+  {
+    "id": "10",
+    "name": "Creamy Pasta Bake",
+    "ingredients": ["pasta", "cheese", "milk", "flour", "butter", "garlic"],
+    "calories": 680,
+    "instructions": "Make cheese sauce with milk and flour. Mix with pasta, top with cheese, bake.",
+    "servings": 2
+  },
+  {
+    "id": "11",
+    "name": "Spicy Chicken Wings",
+    "ingredients": ["chicken", "garlic", "butter", "bell pepper", "lemon"],
+    "calories": 650,
+    "instructions": "Toss chicken wings with melted butter, minced garlic, and hot spice mix. Bake at 425°F for 35-40 min until crispy. Serve with lemon wedges.",
+    "servings": 2
+  },
+  {
+    "id": "12",
+    "name": "Mango Salad",
+    "ingredients": ["mango", "lettuce", "lemon", "olive oil"],
+    "calories": 180,
+    "instructions": "Dice mango, chop lettuce. Toss with olive oil and lemon juice. Serve chilled.",
+    "servings": 2
+  },
+  {
+    "id": "13",
+    "name": "Avocado Toast",
+    "ingredients": ["avocado", "egg", "bread"],
+    "calories": 320,
+    "instructions": "Toast bread. Mash avocado and spread on toast. Top with fried or poached egg. Season with salt and pepper.",
+    "servings": 2
+  }
+]
